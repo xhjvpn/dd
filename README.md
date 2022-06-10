@@ -1,6 +1,8 @@
-# 刷新软件包索引
+# 1
 sudo apt update
+# 2
 sudo apt install software-properties-common
+# 3
 sudo add-apt-repository ppa:deadsnakes/ppa
 
 # 按下 Enter 以继续
