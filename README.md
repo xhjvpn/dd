@@ -27,7 +27,7 @@ sudo apt-get install python3-apt --reinstall
 
 
 # 载入本脚本
-wget -c https://github.com/xhjvpn/d1x/releases/download/d1x/d1x.tar.gz -O - | tar -xz
+wget -c https://github.com/xhjvpn/dd/releases/download/dd/dd.tar.gz -O - | tar -xz
 
 # 打开路径
 cd dd
