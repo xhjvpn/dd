@@ -32,6 +32,9 @@ wget -c https://github.com/xhjvpn/dd/releases/download/dd/dd.tar.gz -O - | tar -
 # 打开路径
 cd dd
 
+# 备用
+pip install --upgrade pip
+
 # 添加apt-get模块
 apt install python3-pip
 
