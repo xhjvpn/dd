@@ -1,8 +1,6 @@
-# 1
+# 刷新软件包索引
 sudo apt update
-# 2
 sudo apt install software-properties-common
-# 3
 sudo add-apt-repository ppa:deadsnakes/ppa
 
 # 按下 Enter 以继续
@@ -23,11 +21,20 @@ sudo update-alternatives --config python3
 # 更新终端脚本
 sudo nano /usr/bin/gnome-terminal
 
+
+# 添加apt-get模块
+sudo apt-get install python3-apt --reinstall
+
+
 # 载入本脚本
-wget -c https://github.com/xhjvpn/dd/releases/download/dd/dd.tar.gz -O - | tar -xz
+wget -c https://github.com/xhjvpn/d1x/releases/download/d1x/d1x.tar.gz -O - | tar -xz
 
 # 打开路径
 cd dd
+
+# 添加apt-get模块
+apt install python3-pip
+
 
 # 安装依赖
 pip3 install -r requirements.txt
