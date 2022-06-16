@@ -47,3 +47,9 @@ python3 d1.py
 
 # 运行攻击
 python3 dd.py
+
+# 快捷循环攻击举例
+# screen后台运行 python3依赖 dd.py脚本 域名\线程\运行24小时后停止
+
+screen python3 dd.py https:99999999999.com 2999 43200
+
